@@ -8,7 +8,7 @@ the time-series data in a CSV.
 ```bash
 # Clone the repository
 git clone https://github.com/jacoby6000/govee-h5055-monitor.git
-cd govee-thermometer
+cd govee-h5055-monitor
 
 # Install with Poetry
 poetry install
