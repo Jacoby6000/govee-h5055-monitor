@@ -20,9 +20,9 @@ poetry install
 
 | Parameter    | Type     | Default                  | Description |
 |--------------|----------|--------------------------|-------------|
-| `--interval` | Argument | `60`                     | The time in seconds between readings. A number that is too low will result in more missed readings/failures. |
-| `--output`   | Argument | `govee_temperatures.csv` | The desired file path of the CSV output. |
-| `--debug`    | Flag     |                          | Enables verbose logging. |
+| `interval` | Argument | `60`                     | The time in seconds between readings. A number that is too low will result in more missed readings/failures. |
+| `output`   | Argument | `govee_temperatures.csv` | The desired file path of the CSV output. |
+| `debug`    | Flag     |                          | Enables verbose logging. |
 
 ### Examples
 
