@@ -27,16 +27,16 @@ poetry install
 ### Examples
 
 ```bash
-# Check temperatures every 60 seconds (default)
+# Check temperatures every 60 seconds (default) with the default CSV location
 poetry run govee-thermometer
 
-# Check temperatures every 30 seconds
+# Check temperatures every 30 seconds with the default CSV location
 poetry run govee-thermometer --interval 30
 
-# Save temperature data to a custom CSV file
+# Save temperature data to a custom CSV file with the default interval
 poetry run govee-thermometer --output my_temperatures.csv
 
-# Enable debug logging
+# Run with the default interval and CSV location and debug logging
 poetry run govee-thermometer --debug
 ```
 
